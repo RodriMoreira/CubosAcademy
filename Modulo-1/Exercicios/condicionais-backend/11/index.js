@@ -11,11 +11,17 @@ const rendaMensalEmReais = rendaMensalEmCentavos / 100
 const totalJaPagoPeloAlunoEmReais = totalJaPagoPeloAluno / 100
 const valorParcela = rendaMensalEmReais * (18/100)
 const mesesTotais = 60
+const quantidadePagaDaMensalidade = valorParcela * mesesDecorridos
 
-if(mesesDecorridos === mesesTotais) {
+
+if(mesesDecorridos >= mesesTotais) {
   console.log("Mensalidade ISENTA")
-} else if(rendaMensalEmReais > 2000) {
+} else if(quantidadePagaDaMensalidade >= 18000) {
+  console.log("Todas as parcelas estão pagas")  
+} else if(rendaMensalEmReais >= 2000) {
   console.log(`Mensalidade de ${valorParcela}$`)
-} else {
+} else if(rendaMensalEmReais < 2000){
+  console.log("Valor da mensalidade ZERADO, pois a renda do aluno está abaixo do valor mínimo")
+} else{
   console.log("ERROR")
 }
