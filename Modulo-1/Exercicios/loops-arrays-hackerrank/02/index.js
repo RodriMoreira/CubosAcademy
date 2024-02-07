@@ -1,5 +1,4 @@
 const valores = [100,  500, 100, 200, 50]
-
 let valorTotal = 0
 
 //Soma o valor total
@@ -22,8 +21,9 @@ if(valores.length >= 5) {
   //Aplica o desconto ao valor final
   let valorTotalComDesconto =  valorTotal - menorNumero
 
-  //imprimo o valor final com desconto
+  //imprime o valor final COM desconto
   console.log(valorTotalComDesconto)
 } else {
+  //imprime o valor final SEM desconto
   console.log(valorTotal)
 }
