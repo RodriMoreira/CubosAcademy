@@ -38,3 +38,10 @@ let ultimoIndice = paises.length - 1
 console.log(paises[ultimoIndice])
 console.log(paises[1])
 console.log(paises[2])
+
+//Desestruturação de array
+
+const array =  [1,2,3,4,5,6]
+
+const [a, b, ...resto] = array
+console.log(a,b,resto)
