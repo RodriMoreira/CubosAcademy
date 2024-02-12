@@ -6,6 +6,7 @@ let dadoPurificado1 = ""
 let dadoPurificado2 = ""
 let dadoPurificado3 = ""
 
+//Purificação dos dados corrompidos
 for(let dado of dadoCorrompido1) {
   if(dado !== "!" &&
      dado !== "@" &&
@@ -51,6 +52,7 @@ for(let dado of dadoCorrompido3) {
       } 
 }
 
+//Impressão das informações na tela
 console.log(dadoPurificado1)
 console.log(dadoPurificado2)
 console.log(dadoPurificado3)
