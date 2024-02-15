@@ -1,18 +1,18 @@
 const endereco = {
-  rua: "",
-  numero: "",
-  complemento: "",
-  bairro: "",
-  cep:"",
-  cidade: "",
-  estado: "",
-  pais: ""
+  rua: "lorem",
+  numero: 123,
+  complemento: "lorem",
+  bairro: "lorem",
+  cep: 1235,
+  cidade: "lorem",
+  estado: "lorem",
+  pais: "lorem"
 }
 
 const usuario = {
-  nome: "",
-  email: "",
-  telefone: "",
-  dataNascimento: "",
+  nome: "lorem",
+  email: "lorem",
+  telefone: 12345678,
+  dataNascimento: "lorem",
   endereco: endereco
 }
