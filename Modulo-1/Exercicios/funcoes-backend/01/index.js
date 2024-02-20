@@ -30,7 +30,7 @@ let questoesAcertadas = 0
 let nota = 0
 
 
-function corrigirProva() {
+function corrigirProva(prova) {
     for(let i = 0; i < prova.questoes.length; i++) {
        if(prova.questoes[i].resposta === prova.questoes[i].correta) {
         questoesAcertadas++
