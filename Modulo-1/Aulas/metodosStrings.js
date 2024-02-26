@@ -20,3 +20,6 @@ texto.lastIndexOf("Cubos");
 //string.slice(posição 1, [posição 2])
 //Números negativos fazem a busca de trás para frente
 texto.slice(0)
+
+//Transformar texto em array
+texto.split("")
