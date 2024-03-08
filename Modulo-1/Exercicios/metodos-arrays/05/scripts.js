@@ -11,8 +11,7 @@ function agendarPaciente(pacientes) {
 }
 
 function cancelarPaciente(paciente, nome) {
-  const indice = paciente.indexOf(nome)
-  paciente.splice(indice, 1)
+  paciente.splice(paciente.indexOf(nome), 1)
 
   console.log(paciente);
 }
