@@ -4,7 +4,7 @@ function OrganizarInverso(array) {
   array.reverse()
   const textoArray = array.join(", ")
 
-  return console.log(textoArray);
+ console.log(textoArray);
 }
 
 function removerPrimeiroUltimo(array) {
@@ -12,7 +12,7 @@ function removerPrimeiroUltimo(array) {
   array.pop()
   array.push("Melão")
   
-  return console.log(array)
+ console.log(array)
 }
 
 OrganizarInverso(frutas)
