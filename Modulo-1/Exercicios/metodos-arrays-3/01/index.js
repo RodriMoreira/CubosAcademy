@@ -1,6 +1,7 @@
 const frutas = ["Banana", "Amora", "abacaxi", "uva", "Pera"]
 const numeros1 = [10, 1, 5, 50, 20, 30, 3, 4, 8, 2]
 // ** => exercício verificado.
+
 //1 **
 
 
@@ -46,7 +47,7 @@ const ordemAlfabeticaDecrescente = (array) => {
   console.log(resultadoOrdemAlfabeticaDecrescente);
 }
 
-//6
+//6 **
 const ordemCrescenteCaracteres = (array) => {
   const resultadoOrdemCrescenteCaracteres = array.sort((a, b) => {
     return a.length - b.length
@@ -55,4 +56,4 @@ const ordemCrescenteCaracteres = (array) => {
   console.log(resultadoOrdemCrescenteCaracteres);
 }
 
-ordemCrescenteCaracteres(frutas)
+
