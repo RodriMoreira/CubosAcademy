@@ -9,6 +9,10 @@
 //Array.filter(função) => Verifica quais itens do array condizem com a função e retorna um novo array com os resultados
 //Array.map(função) => Executa os comandos da função para cada item do array e retorna um novo array com os resultados 
 
+//Array.sort() => ordena o array ORIGINAL  baseado na tabela unicode. Em caso de array de numeros, passar uma função com 2 parametros que onde a - b = ordem crescente e b - a = ordem decrescente. Em caso de array de strings, passar uma função com 2 parametros que onde a.localeCompare(b) = ordem alfabetica (crescente), b.localeCompare(b) = oposto da ordem alfabetica (decrescente)
+
+//Array.reduce() => MDN mozilla 
+
 //EX:setTimeOut
 const imprimir = () => {
   console.log("rodrigo");
